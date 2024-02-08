@@ -5,10 +5,10 @@ import img from '../assets/contact.svg'
 
 const Contact = () => {
     return (
-        <div>
+        <div className='min-h-screen flex flex-col items-center justify-center md:mx-32 mx-5 mt-10'>
             <Heading title1='Contact' title2='Us'></Heading>
 
-            <div>
+            <div className='flex flex-col md:flex-row justify-between w-full'>
                 <form>
                     <div>
                         <label htmlFor="userName">Your Name</label>
