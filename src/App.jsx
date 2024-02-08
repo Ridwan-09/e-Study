@@ -21,6 +21,10 @@ const App = () => {
         <div id='courses'>
           <Courses></Courses>
         </div>
+
+        <div>
+          
+        </div>
       </main>
     </div>
   );
