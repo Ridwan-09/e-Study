@@ -6,13 +6,17 @@ const Navbar = () => {
         <div>
             <div>
                 <div>
-                    <Link>
-                        
+                    <Link to="/">
+                        eStudy
                     </Link>
                 </div>
-                <div>
-
-                </div>
+                <nav>
+                    <Link to="home" spy={true} smooth={true} duration={500}>Home</Link>
+                    <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
+                    <Link to="courses" spy={true} smooth={true} duration={500}>Courses</Link>
+                    <Link to="reviews" spy={true} smooth={true} duration={500}>Reviews</Link>
+                    <Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+                </nav>
             </div>
         </div>
     );
