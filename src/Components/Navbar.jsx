@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
+
+    const [menu, setMenu] = useState(false);
+
+    const handleChange = () => {
+        setMenu(!menu);
+    }
+
     return (
         <div>
             <div className='flex flex-row justify-between p-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0, 0, 0, 0.2)])'>
@@ -10,7 +18,7 @@ const Navbar = () => {
                         eStudy
                     </Link>
                 </div>
-                
+
                 <nav className='hidden md:flex gap-5 font-medium p-1 cursor-pointer'>
 
                     <Link
@@ -58,6 +66,12 @@ const Navbar = () => {
                         Contact
                     </Link>
                 </nav>
+
+                <div className='flex md:hidden' onClick={handleChange}>
+                    <div className='p-2'>
+                        <AiOutlineMenu size={22} />
+                    </div>
+                </div>
             </div>
         </div>
     );
