@@ -18,7 +18,7 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-                <nav className='hidden md:flex gap-5 font-medium p-1 text-lg'>
+                <nav className='hidden md:flex gap-5 font-bold p-1 text-lg'>
                     <Link
                         to="home"
                         spy={true}
