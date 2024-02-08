@@ -3,9 +3,9 @@ import React from 'react';
 const Heading = (props) => {
     return (
         <div>
-            <h3 className='text-4xl font-semibold'>
+            <h3 className='text-6xl font-bold'>
                 {props.title1}
-                <span className='text-brightGreen'> {props.title2} </span>
+                <span className='text-6xl font-bold text-brightGreen'> {props.title2} </span>
             </h3>
             
 
