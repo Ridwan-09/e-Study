@@ -1,11 +1,10 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 
 
 const Footer = () => {
     return (
         <div>
-            <div className='flex flex-col md:flex-row justify-between bg-white border-2 border-LightText rounded-lg md:px-32 px-5'>
+            <div className='flex flex-col md:flex-row justify-between p-5 bg-white border-2 border-LightText rounded-lg md:px-32 px-5'>
                 <div className='flex flex-col md:flex-row gap-5 font-medium p-1 text-lg'>
 
                     <Link
@@ -52,13 +51,21 @@ const Footer = () => {
                         className='hover:text-brightGreen transition-all cursor-pointer'>
                         Contact
                     </Link>
-
-                    <div>
-                        <Link to="/" className='font-semibold text-2xl p-1 cursor-pointer'>
-                            eStudy
-                        </Link>
-                    </div>
                 </div>
+
+                <div>
+                    <Link to="/" className='font-semibold text-2xl p-1 cursor-pointer'>
+                        eStudy
+                    </Link>
+                </div>
+            </div>
+            <div className='text-center mt-4'>
+                <p>@copyright developed by
+                    <span className='text-brightGreen px-2'>
+                        Ridwan Salim
+                    </span>
+                    All rights reserved
+                </p>
             </div>
         </div>
     );
