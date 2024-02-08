@@ -7,10 +7,10 @@ import img3 from '../assets/images/pic3.png';
 
 const Reviews = () => {
     return (
-        <div>
+        <div className='min-h-[80vh] flex flex-col items-center justify-center md:px-32 px-5'>
             <Heading title1='Our' title2='Reviews'></Heading>
 
-            <div>
+            <div className='flex flex-col md:flex-row gap-5 mt-5'>
                 <ReviewCard img={img1}></ReviewCard>
                 <ReviewCard img={img2}></ReviewCard>
                 <ReviewCard img={img3}></ReviewCard>
