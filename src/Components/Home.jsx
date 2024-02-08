@@ -14,7 +14,7 @@ const Home = () => {
                 </p>
 
                 <Link to="contact" spy={true} smooth={true} duration={500}>
-                    <Button></Button>
+                    <Button title ='Contact Us'></Button>
                 </Link>
             </div>
         </div>
