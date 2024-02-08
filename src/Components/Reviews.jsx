@@ -1,4 +1,3 @@
-import React from 'react';
 import Heading from '../Layout/Heading';
 import ReviewCard from '../Layout/ReviewCard';
 import img1 from '../assets/images/pic1.png';

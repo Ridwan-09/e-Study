@@ -1,4 +1,3 @@
-import React from 'react';
 import Heading from '../Layout/Heading';
 import Button from '../Layout/Button';
 import img from '../assets/contact.svg'

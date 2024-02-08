@@ -1,4 +1,3 @@
-import React from 'react';
 import img from '../assets/about.svg'
 import { Link } from 'react-scroll';
 import Button from '../Layout/Button';

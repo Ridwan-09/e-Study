@@ -1,4 +1,3 @@
-import React from 'react';
 import Heading from '../Layout/Heading';
 import webImg from '../assets/web-dev.svg';
 import appImg from '../assets/App-dev.svg';

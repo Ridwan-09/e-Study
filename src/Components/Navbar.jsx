@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
+import { useState } from 'react';
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
