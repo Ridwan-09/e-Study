@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      
-      <h1 className='bg-red-400'>Vite + React</h1>
-      
-    </>
-  )
-}
+    <div>
+      <h1>App</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
