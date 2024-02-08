@@ -10,12 +10,53 @@ const Navbar = () => {
                         eStudy
                     </Link>
                 </div>
-                <nav className='flex gap-5 font-medium p-1 cursor-pointer'>
-                    <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-green-600 transition-all cursor-pointer'>Home</Link>
-                    <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-green-600 transition-all cursor-pointer'>About</Link>
-                    <Link to="courses" spy={true} smooth={true} duration={500} className='hover:text-green-600 transition-all cursor-pointer'>Courses</Link>
-                    <Link to="reviews" spy={true} smooth={true} duration={500} className='hover:text-green-600 transition-all cursor-pointer'>Reviews</Link>
-                    <Link to="contact" spy={true} smooth={true} duration={500} className='hover:text-green-600 transition-all cursor-pointer'>Contact</Link>
+                
+                <nav className='hidden md:flex gap-5 font-medium p-1 cursor-pointer'>
+
+                    <Link
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='hover:text-brightGreen transition-all cursor-pointer'>
+                        Home
+                    </Link>
+
+                    <Link
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='hover:text-brightGreen transition-all cursor-pointer'>
+                        About
+                    </Link>
+
+                    <Link
+                        to="courses"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='hover:text-brightGreen transition-all cursor-pointer'>
+                        Courses
+                    </Link>
+
+                    <Link
+                        to="reviews"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='hover:text-brightGreen transition-all cursor-pointer'>
+                        Reviews
+
+                    </Link>
+                    <Link
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='hover:text-brightGreen transition-all cursor-pointer'>
+                        Contact
+                    </Link>
                 </nav>
             </div>
         </div>
