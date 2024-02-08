@@ -5,6 +5,7 @@ import About from './Components/About';
 import Courses from './Components/Courses';
 import Reviews from './Components/Reviews';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -32,6 +33,8 @@ const App = () => {
           <Contact></Contact>
         </div>
       </main>
+
+      <Footer></Footer>
     </div>
   );
 };
