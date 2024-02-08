@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Button from '../Layout/Button';
-import img from '../assets';
+import img from '../assets/hero.svg';
 
 const Home = () => {
     return (
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src="" alt="" />
+                <img src={img} alt="img" />
             </div>
         </div>
     );
