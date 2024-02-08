@@ -1,3 +1,4 @@
+import React from 'react';
 const ReviewCard = (props) => {
     return (
         <div className='w-full md:w-1/3 bg-white border-LightText md:border-none p-5 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all'>
